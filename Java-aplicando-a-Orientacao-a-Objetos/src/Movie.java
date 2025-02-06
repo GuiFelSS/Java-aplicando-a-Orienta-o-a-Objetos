@@ -3,6 +3,6 @@ public class Movie {
     int andDeLancamento;
     boolean incluidoNoPlano;
     int totalDeAvalialoes;
-    int diracaoEmMinutos;
+    int duracaoEmMinutos;
 
 }
