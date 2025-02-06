@@ -6,7 +6,12 @@ public class Main {
         meuFilme.andDeLancamento = 1970;
         meuFilme.duracaoEmMinutos = 180;
 
-        System.out.println(meuFilme.nome);
-        System.out.println(meuFilme.andDeLancamento);
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avalia(8);
+        meuFilme.avalia(4);
+
+        System.out.println(meuFilme.somaDasAvaliacoes);
+        System.out.println(meuFilme.totalDeAvalialoes);
+        System.out.println(meuFilme.pegaMedia());
     }
 }
